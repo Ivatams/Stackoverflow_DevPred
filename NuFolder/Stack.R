@@ -98,6 +98,8 @@ testing_results <- stack_test %>%
 accuracy(testing_results, truth = Remote, estimate = `Logistic regression`)
 accuracy(testing_results, truth = Remote, estimate = `Random forest`)
 
-## Calculate positive predict value
+## Calculate positive predict value. 
 ppv(testing_results, truth = Remote, estimate = `Logistic regression`)
 ppv(testing_results, truth = Remote, estimate = `Random forest`)
+
+#End
